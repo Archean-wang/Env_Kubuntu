@@ -1,0 +1,20 @@
+" For vim
+" Path /etc/vim/vimrc.local
+
+set nu                  " 显示行号
+
+syntax enable           " 开启语法高亮
+
+syntax on
+
+filetype plugin indent on   " 根据文件类型缩进
+
+set sw=4                " 自动缩进时,缩进长度为4
+
+set expandtab           " 展开Tab为空格
+
+set softtabstop=-1      " 用Backspace键来一次删除4个空格
+
+set showcmd		" Show (partial) command in status line.
+
+set showmatch		" Show matching brackets.

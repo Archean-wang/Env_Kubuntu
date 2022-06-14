@@ -1,2 +1,1 @@
-# Env_Kubuntu
-环境配置
+# Env of Kubuntu
