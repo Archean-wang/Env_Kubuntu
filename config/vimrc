@@ -1,5 +1,6 @@
 " For vim
-" Path /etc/vim/vimrc.local
+" Path ~/.vimrc
+" /system/ Path /etc/vim/vimrc.local
 
 set nu                  " 显示行号
 
@@ -18,3 +19,11 @@ set softtabstop=-1      " 用Backspace键来一次删除4个空格
 set showcmd		" Show (partial) command in status line.
 
 set showmatch		" Show matching brackets.
+
+
+" 插件
+call plug#begin()
+
+Plug 'preservim/nerdtree'
+
+call plug#end()
